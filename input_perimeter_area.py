@@ -13,8 +13,8 @@ def main():
     perimeter = 2*(length + width)
     superscript = str.maketrans("2", "²")
 
-    print("Area: {}mm2".translate(superscript).format(area))
     print("Perimeter: {}mm".format(perimeter))
+    print("Area: {}mm2".translate(superscript).format(area))
 
 
 if __name__ == "__main__":
